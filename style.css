@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+/* body */
+
+:root{
+    --theme-color: #18181b;
+    --theme-secondary-color : #71717a;
+    --theme-background-color: white;
+    --primary-font: 'Poppins', sans-serif;
+    --primary-fontsize: 14px;
+}
+
+/* body */
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--primary-fontsize);
+}
+
+/* headings */
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+/* containers */
+
+.container{
+    padding: 0rem 1rem;
+}
+
+/* links */
+
+.link{
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+/* buttons */
+
+.button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+}
+
+.primary-button{
+    background-color: var(--theme-color);
+    color: var(--theme-secondary-color);
+}
+
+.secondary-button{
+    background-color: var(--theme-background-color);
+    color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+}
+
+/* nav */
+
+.navigation{
+    background-color: var(--theme-color);
+    color: var(--theme-background-color);
+    padding: 0.5rem;
+    border-bottom-left-radius:2rem;
+}
+
+.navigation li{
+    list-style: none;
+    display: inline; 
+    padding: 0rem 1rem;  
+}
+
+.navigation .nav-brand{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.navigation .nav-subbrand{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    color: var(--theme-secondary-color);
+}
+
+.navigation .nav-list{
+    text-align: center;
+}
+
+.navigation .nav-pills{
+    text-decoration: none;
+    color: var(--theme-background-color);
+}
+
+.navigation .active-pill{
+    background-color: none;
+    border: 1px solid var(--theme-background-color);
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+}
+
+/* header */
+
+.header{
+    padding: 2rem;
+}
+
+.header .header-image{
+    max-width: 360px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.header .header-heading{
+    color: var(--theme-secondary-color);
+    text-align: center;
+}
+
+.header .header-heading .header-span{
+    color: var(--theme-color);
+}
