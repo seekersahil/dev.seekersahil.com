@@ -5,7 +5,7 @@
 :root{
     --theme-color: #18181b;
     --theme-secondary-color : #71717a;
-    --theme-background-color: white;
+    --theme-background-color: white;--theme-highlight-color: #f3f4f6;
     --primary-font: 'Poppins', sans-serif;
     --primary-fontsize: 14px;
 }
@@ -46,7 +46,11 @@ h6{
 /* containers */
 
 .container{
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
+}
+
+.container-center{
+    text-align: center;
 }
 
 /* links */
@@ -139,4 +143,37 @@ h6{
 
 .header .header-heading .header-span{
     color: var(--theme-color);
+}
+
+/* section */
+
+.section{
+    padding: 2rem;
+}
+.colored-section{
+    background-color: var(--theme-highlight-color);
+    border-bottom-left-radius:2rem;
+    border-top-right-radius: 2rem;
+}
+
+/* footer */
+.footer{
+    background-color: var(--theme-color);
+    color: var(--theme-background-color);
+}
+
+.footer-menu li{
+    text-decoration: none;
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.footer-header li{
+    text-decoration: none;
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer-social a,i {
+    color: var(--theme-background-color);
 }
