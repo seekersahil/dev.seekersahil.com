@@ -157,6 +157,14 @@ h6{
     text-align: center;
     margin: auto;
 }
+
+.header .blog-header-image{
+    max-width: 480px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
 .header .header-heading{
     color: var(--theme-secondary-color);
     text-align: center;
@@ -246,6 +254,16 @@ h6{
 
 .projects li{
     margin: 5rem 0rem;
+}
+
+/* blog */
+.blog{
+    margin-bottom: 2rem;
+}
+.blog .blog-logo img{
+    padding: 0rem;
+    margin-top: 0rem;
+    max-width: 250px;
 }
 
 /* end */
