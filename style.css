@@ -15,6 +15,7 @@
 body {
     font-family: var(--primary-font);
     font-size: var(--primary-fontsize);
+    margin: 0px;
 }
 
 /* headings */
@@ -124,6 +125,9 @@ h6{
     padding: 0.5rem;
 }
 
+.navigation ul{
+    padding-inline-start: 0px;
+}
 /* header */
 
 .header{
@@ -145,6 +149,7 @@ h6{
     color: var(--theme-color);
 }
 
+
 /* section */
 
 .section{
@@ -160,6 +165,7 @@ h6{
 .footer{
     background-color: var(--theme-color);
     color: var(--theme-background-color);
+    border-top-right-radius: 2rem;
 }
 
 .footer a,i {
@@ -167,6 +173,9 @@ h6{
     color: var(--theme-background-color);
 }
 
+.footer ul{
+    padding-inline-start: 0px;
+}
 .footer li{
     text-decoration: none;
     display: inline;
