@@ -180,14 +180,14 @@ h6{
     display: inline; 
     margin: 0rem 1rem;
 }
-.projects-heading{
+.projects-heading a{
     color: var(--theme-color);
     text-decoration: none;
     border-bottom: 0.5px solid var(--theme-color);
     padding: 0.5rem 0.5rem;
 }
 
-.active-heading{
+.active-heading a{
     font-weight: bold;
     border-right: 0.5px solid var(--theme-color);
     border-left: 0.5px solid var(--theme-color);
