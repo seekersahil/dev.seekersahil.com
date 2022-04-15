@@ -263,6 +263,7 @@ h6{
 /* blog */
 .blog{
     margin-bottom: 2rem;
+    padding: 0rem 2rem;
 }
 .blog .blog-logo img{
     padding: 0rem;
