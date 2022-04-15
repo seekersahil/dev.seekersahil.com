@@ -202,6 +202,10 @@ h6{
     border-top: 0.5px solid var(--theme-color);
 }
 
+.header-note{
+    padding: 0rem 1rem;
+}
+
 /* section */
 
 .section{
