@@ -103,20 +103,20 @@ h6{
 
 .navigation .nav-brand{
     font-size: 2.5rem;
-    text-align: left;
+    text-align: center;
     margin-bottom: 0rem;
 }
 
 .navigation .nav-subbrand{
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     margin-top: 0rem;
     margin-bottom: 2rem;
     color: var(--theme-secondary-color);
 }
 
 .navigation .nav-list{
-    text-align: right;
+    text-align: center;
 }
 
 .navigation .nav-pills{
@@ -208,3 +208,4 @@ h6{
 .footer-menu li{
     padding: 0rem 1rem;
 }
+/* end */
