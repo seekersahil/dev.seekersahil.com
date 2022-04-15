@@ -162,18 +162,20 @@ h6{
     color: var(--theme-background-color);
 }
 
-.footer-menu li{
+.footer a,i {
+    text-decoration: none;
+    color: var(--theme-background-color);
+}
+
+.footer li{
     text-decoration: none;
     display: inline;
-    padding: 0rem 1rem;
 }
 
 .footer-header li{
-    text-decoration: none;
-    display: inline;
     padding: 0rem 0.5rem;
 }
 
-.footer-social a,i {
-    color: var(--theme-background-color);
+.footer-menu li{
+    padding: 0rem 1rem;
 }
