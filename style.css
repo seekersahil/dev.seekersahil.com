@@ -83,31 +83,31 @@ h6{
 
 /* nav */
 
-.navigation{
+nav{
     background-color: var(--theme-color);
     color: var(--theme-background-color);
     padding: 0.5rem 2rem;
     border-bottom-left-radius:2rem;
 }
 
-.navigation li{
+nav li{
     list-style: none;
     display: inline; 
     padding: 0rem 1rem;  
 }
 
-.navigation .nav-main{
+nav .nav-main{
     position: relative;
     margin-left: 1rem;
 }
 
-.navigation .nav-brand{
+nav .nav-brand{
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 0rem;
 }
 
-.navigation .nav-subbrand{
+nav .nav-subbrand{
     font-size: 1.5rem;
     text-align: center;
     margin-top: 0rem;
@@ -115,23 +115,23 @@ h6{
     color: var(--theme-secondary-color);
 }
 
-.navigation .nav-list{
+nav .nav-list{
     text-align: center;
 }
 
-.navigation .nav-pills{
+nav .nav-pills{
     text-decoration: none;
     color: var(--theme-background-color);
 }
 
-.navigation .active-pill{
+nav .active-pill{
     background-color: none;
     border: 1px solid var(--theme-background-color);
     border-radius: 0.75rem;
     padding: 0.5rem;
 }
 
-.navigation ul{
+nav ul{
     padding-inline-start: 0px;
 }
 
@@ -146,30 +146,30 @@ h6{
 
 /* header */
 
-.header{
+header {
     padding: 2rem;
     margin-top: 2rem;
 }
 
-.header .header-image{
+header .header-image{
     max-width: 360px;
     display: block;
     text-align: center;
     margin: auto;
 }
-.header .header-heading{
+header .header-heading{
     color: var(--theme-secondary-color);
     text-align: center;
 }
 
-.header .header-heading .header-span{
+header .header-heading .header-span{
     color: var(--theme-color);
 }
 
 
 /* section */
 
-.section{
+section{
     padding: 2rem;
     margin-bottom: 2rem;
 }
@@ -180,21 +180,21 @@ h6{
 }
 
 /* footer */
-.footer{
+footer{
     background-color: var(--theme-color);
     color: var(--theme-background-color);
     border-top-right-radius: 2rem;
 }
 
-.footer a,i {
+footer a,i {
     text-decoration: none;
     color: var(--theme-background-color);
 }
 
-.footer ul{
+footer ul{
     padding-inline-start: 0px;
 }
-.footer li{
+footer li{
     text-decoration: none;
     display: inline;
 }
