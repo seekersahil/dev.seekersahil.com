@@ -147,8 +147,8 @@ h6{
 /* header */
 
 .header{
-    padding: 2rem;
-    margin-top: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
+    margin: 2rem 0rem;
 }
 
 .header .header-image{
@@ -160,18 +160,46 @@ h6{
 .header .header-heading{
     color: var(--theme-secondary-color);
     text-align: center;
+    margin-bottom: 0.25rem;
 }
 
 .header .header-heading .header-span{
     color: var(--theme-color);
 }
 
+.projects-header{
+    margin-top: 0px;
+}
+
+.projects-header ul{
+    padding-inline-start: 0px;
+}
+
+.projects-header li{
+    list-style: none;
+    display: inline; 
+    margin: 0rem 1rem;
+}
+.projects-heading{
+    color: var(--theme-color);
+    text-decoration: none;
+    border-bottom: 0.5px solid var(--theme-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.active-heading{
+    font-weight: bold;
+    border-right: 0.5px solid var(--theme-color);
+    border-left: 0.5px solid var(--theme-color);
+    border-top: 0.5px solid var(--theme-color);
+}
 
 /* section */
 
 .section{
     padding: 2rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .colored-section{
     background-color: var(--theme-highlight-color);
@@ -210,4 +238,14 @@ h6{
 .footer-menu li{
     padding: 0rem 1rem;
 }
+
+/* projects */
+.projects{
+    text-align: left;
+}
+
+.projects li{
+    margin: 5rem 0rem;
+}
+
 /* end */
