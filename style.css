@@ -298,6 +298,13 @@ i {
         margin: 1.5rem;
         max-width: 150px;
     }
+    .button {
+        width: 100%;
+        margin: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.75rem;
+        text-decoration: none;
+    }
 }
 
 /* end */
