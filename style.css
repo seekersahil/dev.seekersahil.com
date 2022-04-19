@@ -266,7 +266,7 @@ i {
     margin: 5rem 0rem;
 }
 .project-button-space {
-    visibility: none;
+    display: none;
 }
 
 /* blog */
@@ -303,6 +303,7 @@ i {
     }
     .project-button-space {
         height: 2rem;
+        margin: 1rem;
     }
 }
 
