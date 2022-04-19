@@ -302,6 +302,7 @@ i {
         max-width: 150px;
     }
     .project-button-space {
+        display: contents;
         height: 2rem;
         margin: 1rem;
     }
