@@ -265,6 +265,9 @@ i {
 .projects li {
     margin: 5rem 0rem;
 }
+.project-button-space {
+    visibility: none;
+}
 
 /* blog */
 .blog {
@@ -298,9 +301,8 @@ i {
         margin: 1.5rem;
         max-width: 150px;
     }
-    .project-button {
-        width: 150px;
-        text-align: center;
+    .project-button-space {
+        height: 2rem;
     }
 }
 
