@@ -283,6 +283,11 @@ i {
 
 /*responsive*/
 @media only screen and (max-width: 360px) {
+    .navigation li {
+        list-style: none;
+        display: inline;
+        padding: 0rem 0.5rem;
+    }
     .header .header-image {
         max-width: 200px;
         display: block;
