@@ -306,9 +306,18 @@ i {
         margin: 1.5rem;
         max-width: 150px;
     }
+    .projects{
+        text-align: center;
+    }
+    .projects ol{
+        padding-inline-start: 1.5rem;
+    }
+    .projects li::before{
+        text-align: right;
+    }
     .project-button-space {
         display: block;
-        margin: 1rem;
+        margin: 1.5rem;
     }
 }
 
