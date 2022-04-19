@@ -287,6 +287,17 @@ i {
         text-align: center;
         margin: auto;
     }
+    .header .blog-header-image {
+        max-width: 200px;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .blog .blog-logo img {
+        padding: 0rem;
+        margin: 1.5rem;
+        max-width: 150px;
+    }
 }
 
 /* end */
